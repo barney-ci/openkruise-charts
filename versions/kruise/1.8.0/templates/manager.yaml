@@ -5,12 +5,12 @@ metadata:
   labels:
     control-plane: openkruise
   name: {{ .Values.installation.namespace }}
-{{- end }}
 ---
 apiVersion: v1
 kind: Namespace
 metadata:
   name: kruise-daemon-config
+{{- end }}
 ---
 apiVersion: v1
 kind: Service
